@@ -1,5 +1,4 @@
-import React, { useState, Component } from 'react';
-import reactDOM from 'react-dom';
+import React from 'react';
 
 const languages = ['JavaScript', 'Python', 'Ruby', 'JAVA'];
 const languageContext = React.createContext();
