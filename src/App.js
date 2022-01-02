@@ -35,7 +35,6 @@ class MainSection extends React.Component {
 	static contextType = languageContext;
 
 	render() {
-		console.log(this.context);
 		const changeLanguage = () => {
 			this.context.toggleIndex();
 		};
